@@ -12,7 +12,7 @@ public class StudentCglibProxy<T> implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        methodProxy.invoke(o,objects);
+        methodProxy.invokeSuper(o,objects);
         return null;
     }
 }

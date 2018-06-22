@@ -21,7 +21,7 @@ public class Main {
         //JDK¶¯Ì¬´úÀí
         InvocationHandler stuHandler = new StudentInvocationHandler<Person>(stu);
         Person stuProxy = (Person) Proxy.newProxyInstance(Person.class.getClassLoader(),
-                new Class<?>[]{Person.class},stuHandler);
+                stu.getClass().getInterfaces(),stuHandler);
         stuProxy.giveMoney();
 
         //cglib

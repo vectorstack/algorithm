@@ -1,4 +1,4 @@
-package com.vector.InsertSort;
+package com.vector.sort.InsertSort;
 
 /**
  * Created by 12345 on 2018-6-17.

@@ -1,4 +1,4 @@
-package com.vector.SelectSort;
+package com.vector.sort.SelectSort;
 
 /**
  * Created by 12345 on 2018-6-17.
